@@ -1,0 +1,12 @@
+syntax = "proto3";
+package test;
+
+message TEST_MSG {
+    string timestamp = 1;
+    string num_cpu_cores = 2;
+    string cpu_usage_per_core = 3;
+    string total_memory = 4;
+    string free_memory = 5;
+    string available_memory = 6;
+    string memory_used = 7;
+}
