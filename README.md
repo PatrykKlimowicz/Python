@@ -1,2 +1,6 @@
 # Python
-Python is more and more popular this days. Projects from JetBrains will be here
+
+This repository contains branches with tasks and projects.
+
+### 90 days of code branch 
+Please check this branch everyday to discover some interesting facts about Python.
