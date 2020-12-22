@@ -1,5 +1,9 @@
 # sudo socat -d -d pty,raw,echo=0,link=/dev/ttyS20 pty,raw,echo=0,link=/dev/ttyS21
-import test_pb2, time, serial, psutil
+import test_pb2
+import time
+import serial
+import psutil
+
 
 class Daemon:
     def __init__(self, port):
@@ -12,12 +16,12 @@ class Daemon:
 
     def _get_total_mem_info(self):
         return str(psutil.virtual_memory()._asdict()['total'])
-    
+
     def _get_available_mem_info(self):
         return str(psutil.virtual_memory()._asdict()['available'])
 
     def _get_used_mem_info(self):
-        return str(psutil.virtual_memory()._asdict()['used'])    
+        return str(psutil.virtual_memory()._asdict()['used'])
 
     def _get_cpu_num_cores_info(self):
         return str(psutil.cpu_count(logical=True))
@@ -43,7 +47,7 @@ class Daemon:
     def run(self):
         while True:
             # wait some time to not spam with messages
-            time.sleep(5)
+            # time.sleep(0.3)
 
             # crate message
             self._create_message()
@@ -53,6 +57,7 @@ class Daemon:
 
             # clear the message
             self._clear_message()
+
 
 daemon = Daemon("/dev/ttyS20")
 daemon.run()
