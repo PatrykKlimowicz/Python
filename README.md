@@ -1,4 +1,4 @@
-# 90 days of code
+# 90 days of code 
 
 In response of my willingness to improve my knowledge and quality of code I dare myself to a challenge:
 
@@ -13,7 +13,7 @@ Based on "Effective Pyton" by Brett Slatkin
 
 ---
 
-### Pythonic thinking
+### Pythonic thinking ---> DONE
 0. Discover the PEP8
 1. Know the differences between *bytes* and *str*
 2. Prefer interpolated f-strings over C-style format strings and *str.format*
@@ -24,7 +24,7 @@ Based on "Effective Pyton" by Brett Slatkin
 7. Avoid *else* blocks after *for* and *while* loops
 8. Prevent repetition with assignment expressions
 
-### Lists and Dictionaries
+### Lists and Dictionaries ---> DONE
 1. Know how to slice sequences
 2. Avoid striding and slicing in single expression
 3. Prefer catch-all unpacking over slicing
@@ -34,8 +34,15 @@ Based on "Effective Pyton" by Brett Slatkin
 7. Prefer *defaultdict* over *setdefault* to handle missing items in internal state
 8. Know how to construct Key-Dependent default values with *__missing__*
 
-### Functions
-t.b.d
+### Functions ---> ACTIVE FROM 29.12.2020
+1. Never unpack more than three variables when function returns multiple values
+2. Prefer raising exceptions to returning None
+3. Know how closures interact with variable scope
+4. Reduce visual noise with variable positional arguments
+5. Provide optional behavior with keyword arguments
+6. Use None and docstrings to specify dynamic default arguments
+7. Enforce clarity with keyword-only and positional arguments
+8. Define function decorators with functools.wraos
 
 ### Comprehemsions and Generators
 t.b.d
@@ -55,6 +62,6 @@ t.b.d
 ### Testing and Debugging
 t.b.d
 
-### Collaboration
+### Collaboration 
 t.b.d
 
