@@ -42,7 +42,7 @@ Based on "Effective Pyton" by Brett Slatkin
 5. Provide optional behavior with keyword arguments
 6. Use None and docstrings to specify dynamic default arguments
 7. Enforce clarity with keyword-only and positional arguments
-8. Define function decorators with functools.wraos
+8. Define function decorators with functools.wraps
 
 ### Comprehemsions and Generators
 t.b.d
