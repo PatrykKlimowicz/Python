@@ -34,7 +34,7 @@ Based on "Effective Pyton" by Brett Slatkin
 7. Prefer *defaultdict* over *setdefault* to handle missing items in internal state
 8. Know how to construct Key-Dependent default values with *__missing__*
 
-### Functions ---> ACTIVE FROM 29.12.2020
+### Functions ---> DONE
 1. Never unpack more than three variables when function returns multiple values
 2. Prefer raising exceptions to returning None
 3. Know how closures interact with variable scope
@@ -44,8 +44,17 @@ Based on "Effective Pyton" by Brett Slatkin
 7. Enforce clarity with keyword-only and positional arguments
 8. Define function decorators with functools.wraps
 
-### Comprehemsions and Generators
-t.b.d
+### Comprehensions and Generators ---> ACTIVE
+1. Use comprehensions instead of *map* and *filter*
+2. Avoid more than two control subexpressions in comprehensions
+3. Avoid repeated work in comprehensions by using assignment expressions
+4. Consider generator instead of returning list
+5. Be defensive when iterating over arguments
+6. Consider generator expression for large list comprehensions
+7. Compose multiple generator expressions for large list comprehensions
+8. Compose multiple generators with yield from
+9. Avoid injecting data into generators with send 
+10. Avoid causing state transitions in generators with throw
 
 ### Classes and Interfaces 
 t.b.d
