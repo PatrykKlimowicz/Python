@@ -1,0 +1,1 @@
+Second problem: The generator version of our function can be easily adapted to take inputs of arbitrary length due to its bouded memory requirements. We can now create a generator that streams input from a file one line at time and yields outputs one word at a time:
