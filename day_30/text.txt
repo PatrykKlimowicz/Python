@@ -1,0 +1,6 @@
+This is my text in the very first line of this file
+My name is Patryk 
+I have quite old laptop, but it is good
+Hello, world in C++ was my first ever program
+I had k8s workshop that's why this lecture is not on time.
+Please stay tuned, as I'll be back on track soon :D 
