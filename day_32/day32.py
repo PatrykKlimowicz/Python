@@ -1,5 +1,5 @@
-# yield expressions provide generator functions with a simple way to produce an iterable series of output values. It might seem that this is not bidirectional data sream, but.. it is. Let's create a program that will transmit radio signals:
-from expression finishes iterating over a nested generator, it moves on to the
+# yield expressions provide generator functions with a simple way to produce an iterable series of output values. It might seem that this is not bidirectional data stream, but it is. Let's create a program that will transmit radio signals:
+
 import math
 
 
